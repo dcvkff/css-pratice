@@ -3,3 +3,42 @@
     padding: 0;
     border: none;
     }
+
+.body {
+    height: 100vh ;
+    display: flex
+}    
+
+.header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;       
+    height: 30vh;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 40vh;
+    color: bisque;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;       
+    height: 30vh;
+    font-size: 50px;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: cadetblue;
+}
